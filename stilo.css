@@ -9,37 +9,48 @@
     
     #espaço1{
         float: left;
-        min-height: 500px;
+        min-height: 1000px;
         width: 15%;
         background-color:#222627;
     } 
     #espaço2{
         font-size: 20px;
         float: left;
-        min-height: 500px;
+        min-height: 1000px;
         width:65%;
         background-color: #f2b138;
     } 
-
     #espaço3{
         float: left;
-        min-height: 500px;
+        min-height: 1000px;
         width:20%;
         background-color: #f2b138;
     }
-
     #espaço4{
         float: left;
         min-height: 90px;
         width: 100%;
         background-color:#222627;
     } 
-    
+    #espaço5{
+        float: right;
+        height: 2100px;
+        width:33%;
+        background-color: #f2b138;
+    }
+    #espaço6{
+        float: left;
+        min-height: 2100px;
+        width:67%;
+        background-color:#f2b138;
+    }
+
     #menu{
         min-height: 650px;
         width: 100%;
         background-color: #f2b138;
     }
+
     nav {
         display: inline-block;
     }
@@ -60,6 +71,51 @@
             padding: 1.5px 3px; /* Adiciona um pouco de padding */
             border-radius: 4px; /* Arredonda os cantos */
         }
+
+        .carousel {
+            margin-left: 25%;
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          
+          .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+          }
+          
+          .carousel-item {
+            min-width: 100%;
+            transition: opacity 0.5s ease;
+          }
+          
+          .carousel-item img {
+            width: 100%;
+            display: block;
+          }
+          
+          button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+          }
+          
+          button.prev {
+            left: 10px;
+          }
+          
+          button.next {
+            right: 10px;
+          }
     
     
     #rodapé{

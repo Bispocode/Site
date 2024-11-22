@@ -8,13 +8,18 @@
 </head>
     
 <style>
+    p{
+        text-align: center;
+        color: #222627;
+        font-size: 20px;
+    }
     h1, h2{
         color:#222627;
         text-align: center;
     }
     table{
-        margin-left: 33%;
-        width: 33%;
+        margin-left: 27.5%;
+        width: 35%;
         border-collapse:collapse ;
         margin-bottom: 20px;
         background-color:#ffff8c;
@@ -31,13 +36,69 @@
 </style>
 
 <body bgcolor="#222627">
-    <div id="cabeçalho">Vida Acadêmica</div>
+    <div id="cabeçalho">Pagina Acadêmica</div>
     <div id="espaço4"> 
         <nav>
         <a href="C:\Users\leand\OneDrive\Área de Trabalho\site final luis\pagina inicial.html">Voltar</a>
+        <a href="">Projetos do Curso Tecnico</a>
         </nav>
     </div>
-    <div id="menu">
+    <div id="espaço6">
+        <h1>Minha vida Acadêmica</h1>
+        <p>Texto sobre minha vida acadêmica</p>
+        <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 3">
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+          </div>
+
+          <h1>Projetos de Ano</h1>
+          <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 3">
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+          </div>
+
+          <h1>Projetos de IOT</h1>
+          <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="" alt="Imagem 3">
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+          </div>
+         
+          <script src="script.js"></script>    
+    </div>
+    <div id="espaço5">
         <h1>Atividades Favoritas</h1>
         <h2>Ciências Humanas</h2>
             <table>
@@ -54,7 +115,7 @@
                 <tr>
                     <td>Geografia</td>
                     <td>Professora Thais</td>
-                    <td></td>
+                    <td>Utilizar o conceito de Heartland em uma partida de War</td>
                 </tr>
                 <tr>
                     <td>História</td>
