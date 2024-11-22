@@ -34,9 +34,9 @@
         width: 100%;
         background-color:#222627;
     } 
+    
     #menu{
-        float: left;
-        min-height: 450px;
+        min-height: 650px;
         width: 100%;
         background-color: #f2b138;
     }
@@ -63,7 +63,7 @@
     
     
     #rodapé{
-        height: 480px;
+        height: 40px;
         background-color:#222627;
         color: white;
         text-align:center;
