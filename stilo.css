@@ -9,14 +9,14 @@
     
     #espaço1{
         float: left;
-        min-height: 500px;
+        min-height: 1000px;
         width: 15%;
         background-color:#222627;
     } 
     #espaço2{
         font-size: 20px;
         float: left;
-        min-height: 500px;
+        min-height: 1100px;
         width:50%;
         background-color: #f2b138;
     } 
@@ -26,6 +26,12 @@
         width:35%;
         background-color: #f2b138;
     }
+    #espaço7{
+      float: right;
+      min-height: 600px;
+      width:35%;
+      background-color: #f2b138;
+  }
     #espaço4{
         float: left;
         min-height: 90px;
