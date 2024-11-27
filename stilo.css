@@ -9,21 +9,21 @@
     
     #espaço1{
         float: left;
-        min-height: 1000px;
+        min-height: 500px;
         width: 15%;
         background-color:#222627;
     } 
     #espaço2{
         font-size: 20px;
         float: left;
-        min-height: 1000px;
-        width:65%;
+        min-height: 500px;
+        width:50%;
         background-color: #f2b138;
     } 
     #espaço3{
-        float: left;
-        min-height: 1000px;
-        width:20%;
+        float: right;
+        min-height: 500px;
+        width:35%;
         background-color: #f2b138;
     }
     #espaço4{
@@ -34,7 +34,7 @@
     } 
     #espaço5{
         float: right;
-        height: 2100px;
+        height: 2153.96px;
         width:33%;
         background-color: #f2b138;
     }
@@ -72,8 +72,8 @@
             border-radius: 4px; /* Arredonda os cantos */
         }
 
-        .carousel {
-            margin-left: 25%;
+        .carousel{
+            margin-left: 15%;
             position: relative;
             width: 80%;
             max-width: 600px;
@@ -124,4 +124,16 @@
         color: white;
         text-align:center;
     }
-    
+    #imggrupo{
+      margin-left: 18%;
+      border-radius: 10%
+    }
+   img :hover{/*background-color: #575757;*/
+    color:white; /* Muda a cor do texto */
+    font-size: 1.5em; /* Aumenta o tamanho do texto */
+    border-bottom: 10px solid white; /* Adiciona uma borda inferior */
+    background-color:  #f2b138; /* Muda a cor de fundo */
+    padding: 1.5px 3px; /* Adiciona um pouco de padding */
+    border-radius: 4px; /* Arredonda os cantos */
+
+   }
